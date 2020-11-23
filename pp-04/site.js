@@ -4,7 +4,7 @@
   `x` as the variable inside the function, however.
 */
 
-x = 5;
+/*x = 5;
 
 function double(num) {
   x = num * 2;
@@ -12,8 +12,16 @@ function double(num) {
 }
 
 double(2.5);
-console.log('The value of x is', x, '-- it should be 5.');
+console.log('The value of x is', x, '-- it should be 5.');*/
+x = 5;
 
+; function double(num) {
+    x = num * 2;
+    return x;
+}
+
+double(2.5);
+console.log('The value of x is', x, '-- it shoulde be 5.');
 /*
   Step 2. Rewrite the JavaScript `double()` function above so that
   it does not pollute the global namespace: that is, neither its
